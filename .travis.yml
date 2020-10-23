@@ -1,6 +1,9 @@
-dist: bionic
-language: shell
 os: linux
+group: edge
+dist: focal
+arch: arm64-graviton2
+virt: lxd
+language: shell
 
 services:
   - docker
